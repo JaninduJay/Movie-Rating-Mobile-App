@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBFFFD"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="MOVIE FAVO"
+            android:textSize="80sp" />
+
+        <Button
+            android:id="@+id/reg_movie_btn_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Register Movie"
+            app:backgroundTint="#39A59B" />
+
+        <Button
+            android:id="@+id/dis_movie_btn_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Display Movies"
+            app:backgroundTint="#39A59B" />
+
+        <Button
+            android:id="@+id/fav_btn_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Favourites"
+            app:backgroundTint="#39A59B" />
+
+        <Button
+            android:id="@+id/edit_movie_btn_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Edit Movies"
+            app:backgroundTint="#39A59B" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/search_btn_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            app:backgroundTint="#39A59B" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/rating_btn_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ratings"
+            app:backgroundTint="#39A59B" />
+    </LinearLayout>
+</RelativeLayout>
